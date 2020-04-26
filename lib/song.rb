@@ -32,7 +32,7 @@ def self.genres
      @@artists.uniq
    end
    
-   ######## study this part of the code 
+   ######## study this part of the code####### 
    def self.genre_count
      num_of_genres = {}
      @@genres.each do |each_genre|
@@ -56,6 +56,6 @@ def self.genres
      end
      num_of_artists
    end
-# Study this part of the code 
+########### Study this part of the code ##############
  
 end 
